@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css">
+    <link href="css/jquery.mobile.theme-1.4.5.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Basic PhoneGap</title>
+</head>
+
+<body>
+    <div class="app">
+        <div data-role="page" id="home">
+            <header data-role="header">
+                <h1>Header</h1>
+            </header>
+            <div data-role="content">
+                <nav data-role="navbar" >
+                    <ul >
+                         <li><a href="#home" class=" ui-btn-active">Home</a></li>
+                         <li><a href="#about">About</a></li>
+                         <li><a href="#contact">Contact</a></li>
+                     </ul>
+                </nav>
+                <h3>Welcome to Home</h3>
+                <img class="banner" src="img/2017-04-09%20(2).png">
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                </p>
+                <a href="#contact" class="ui-shadow ui-btn ui-corner-all">Conteact us Today!</a>
+            </div>
+            <footer data-role="footer">
+                <h1>Footer</h1>
+            </footer>
+        </div>
+        <div data-role="page" id="about">
+            <header data-role="header">
+                <h1>About Header</h1>
+            </header>
+            <div data-role="content">
+                <nav data-role="navbar" >
+                    <ul >
+                        <li><a href="#home" >Home</a></li>
+                        <li><a href="#about" class=" ui-btn-active">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <h3>Welcome to About</h3>
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                </p>
+            </div>
+            <footer data-role="footer">
+                <h1> about Footer</h1>
+            </footer>
+        </div>
+        <div data-role="page" id="contact">
+            <header data-role="header">
+                <h1>contact Header</h1>
+            </header>
+            <div data-role="content">
+                <nav data-role="navbar" >
+                    <ul >
+                        <li><a href="#home" >Conteact</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact" class=" ui-btn-active">Contact</a></li>
+                    </ul>
+                </nav>
+                <br>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6771.513448536965!2d35.9163157!3d31.940361600000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca09c424fd751%3A0xb0fce8816b1fbe91!2sAl+Akhdar%2C+Amman!5e0!3m2!1sen!2sjo!4v1495902643282" width="430" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <h3>Location</h3>
+                <ul>
+                    <li><strong>FooBar Web Design</strong></li>
+                    <li>nazal</li>
+                    <li><strong>Email: </strong>aljaouni@outlook.com</li>
+                    <li><strong>Phone: </strong>962-777-99-4382</li>
+                </ul>
+            </div>
+            <footer data-role="footer">
+                <h1> contact Footer</h1>
+            </footer>
+        </div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
